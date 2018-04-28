@@ -6,15 +6,15 @@ from datetime import datetime
 import time,random,sys,re,os,json,subprocess,codecs,threading,glob
 
 acil = PRANKBOTS.LINE() 
-acil.login(token="token akun utama/selfbot")
+acil.login(token="EsChWMepSb9lKr6nS9i4./0DOo/10A+PUJG8iHA76Pa.9WT1pKEmje7MEZT/bcAcwS88hnqZnZ9b7LWIwv16eQE=")
 acil.loginResult()
 
 pb1 = PRANKBOTS.LINE() 
-pb1.login(token="token asist 1")
+pb1.login(token="EskEWkghcvWWrPV0kcg8.BQIP++PfVBkYt2USSm1tMa.2DtxflWZy0GTpvxS82l7LgoduPZ2i4UheyH65sbtYIc=")
 pb1.loginResult()
 
 pb2 = PRANKBOTS.LINE() 
-pb2.login(token="token asist 2")
+pb2.login(token="EslXTbjsMkDvx5KKhfg4.bOiJimUzjLhiapSWdVjeva.+W+ASC1OphwuhdLcp6OK0Ljg2jZXMF3DV/6HxRDPI9c=")
 pb2.loginResult()
 
 
@@ -122,7 +122,7 @@ mid = acil.getProfile().mid
 pb1mid = pb1.getProfile().mid
 pb2mid = pb2.getProfile().mid
 Bots=[mid,pb1mid,pb2mid]
-admsa = "mid akun utama/sb"
+admsa = "ufb47683bed746bfa6e8e0f0885aefaa4"
 
 wait = {
     'contact':False,
