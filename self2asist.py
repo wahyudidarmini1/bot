@@ -22,100 +22,101 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""(╣•℘̰̰̈́ґ̰̰̈́∂̰̰̈́η̰̰̈́к̰̰̈́ ̰в̰̰̈́❍̰̰̈́т̰̰̈́ѕ̰̰̈́•╣)
-╔══B༘̈́̈́L༘̈́̈́Ä༘́̈́C༘̈́̈́K༘̈́̈́   ̈́Ö༘́̈́F༘̈́̈́ ̈́  G༘̈́̈́Ä༘́̈́M༘̈́̈́Ë༘́̈́R༘̈́̈́══╗
-║Me
-║Add
-║Cn "text"
-║Clockname "text"
-║TL:"text"
-║Ban:"mid"
-║Unban:"mid"
-║Bl:on
-║Unbl:on
-║Mcheck
-║Mybio:
-║Mybots
-║Mymid
-║Mygroups
-║Message set:"text"
-║Message confirm
-║Msg add-"text"
-║Com set:"text"
-║Comment
-║Comban/del/cek
-║Help set:"text"
-║Change
-║Gn "text"
-║Clink/Curl
-║Kick:"mid"
-║Invite:"mid"
-║Creator
-║Contact
-║Cancel/Bcancel
-║Gcancel:"jumlah"
-║Gcancelall
-║Ginfo
-║Prank in (Masukin bot)
-║Prank out (Keluarin bot)
-║Setlastpoint
-║Cctv
-║Glink
-║Spam on/of "jumlah/text"
-║Gurl
-║Sc:"mid"
-║Blocklist
-║Banlist
-║Update
-║Creator
-║Sc "@"
-║Fuck "@"
-║Sikat "@"
-║Spam "@"
-║Ban "@" 
-║Unban "@"
-║Copy "@"
-║Nuke
-║Backup
-║Tag
-║Bc "text"
-║Say "text"
-║Kick@mbl "kick blacklist"
-║Ping
-║Sett
-╚══════════╗
-╔═ COMMENT BY ASISTEN ═╝
-║All:
-║Allbio:
-║All mid
-║Respon
-║B:out
-║B1-2 mid
-║B1-2name "text"
-║B1-2
-║B1-2 gift
-║B come
-║B1-2 in
-║B1-2 bye
-╚══════════╗
-╔═ COMMENT BY SETTING ═╝
-║Contact:on/off
-║Add:on/off
-║Join:on/off
-║Leave:on/off
-║Share:on/off
-║Com:on/off
-║Clock:on/off
-╚══════════╗
-╔═ COMMENT BY PROTECT═╝
-║Pro:on/off
-║Prolink:on/off
-║Proinvite:on/off
-║Procancel:on/off
-╚══════════╝
-(╣•℘̰̰̈́ґ̰̰̈́∂̰̰̈́η̰̰̈́к̰̰̈́ ̰в̰̰̈́❍̰̰̈́т̰̰̈́ѕ̰̰̈́•╣)
+helpMessage ="""「 jombang ʙᴏᴛ」
+
+"™↔"Me\n" + \
+"™↔"Add\n" + \
+"™↔"Gift\n" + \
+"™↔"Spam gift\n" + \
+"™↔"Cn \n" + \
+"™↔"Clockname\n" + \
+"™↔"TL: \n" + \
+"™↔"Ban: \n" + \
+"™↔"Unban: \n" + \
+"™↔"Bl:on \n" + \
+"™↔"Unbl:on \n" + \
+"™↔"Mcheck \n" + \
+"™↔"Mybio: \n" + \
+"™↔"Mybot \n" + \
+"™↔"Mymid \n" + \
+"™↔"Mygroups \n" + \
+"™↔"Goup id \n" + \
+"™↔"Message set: \n" + \
+"™↔"Message confirm \n" + \
+"™↔"Msg add: \n" + \
+"™↔"Com set:\n" + \
+"™↔"Comment \n" + \
+"™↔"Comban/del/cek \n" + \
+"™↔"Help set: \n" + \
+"™↔"Change \n" + \
+"™↔"Gn \n" + \
+"™↔"Clink/curl \n" + \
+"™↔"Kick: Mid\n" + \
+"™↔"Invite: mid\n" + \
+"™↔"Creator \n" + \
+"™↔"Gcancel: jumlah \n" + \
+"™↔"Gcancelall \n" + \
+"™↔"Ginfo\n" + \
+"™↔"Masuk\n" + \
+"™↔"Moleh\n" + \
+"™↔"Setlastpoint\n" + \
+"™↔"Cctv\n" + \
+"™↔"Glink\n" + \
+"™↔"Spam on/of\n" + \
+"™↔"Gurl\n" + \
+"™↔"Sc:"mid"\n" + \
+"™↔"Blocklist\n" + \
+"™↔"Banlist\n" + \
+"™↔"Update\n" + \
+"™↔"Creator\n" + \
+"™↔"Sc "@"\n" + \
+"™↔"Fuck "@"\n" + \
+"™↔"Sikat "@"\n" + \
+"™↔"Spam "@"\n" + \
+"™↔"Ban "@" \n" + \
+"™↔"Unban "@" \n" + \
+"™↔"Copy "@" \n" + \
+"™↔"Nuke \n" + \
+"™↔"Backup\n" + \
+"™↔"Tag\n" + \
+"™↔"Bc "text"\n" + \
+"™↔"Say "text"\n" + \
+"™↔"Kick@mbl "kick blacklist"\n" + \
+"™↔"Ping\n" + \
+"™↔"Sett\n" + \
+
+ COMMENT BY ASISTEN
+"™↔"All:\n" + \ 
+"™↔"Allbio:\n" + \ 
+"™↔"All mid\n" + \ 
+"™↔"Respon\n" + \ 
+"™↔"B:out\n" + \ 
+"™↔"B1-2 mid\n" + \ 
+"™↔"B1-2name "text"\n" + \ 
+"™↔"B1-2\n" + \ 
+"™↔"B1-2 gift\n" + \ 
+"™↔"B come\n" + \
+"™↔"B1-2 in\n" + \
+"™↔"B1-2 bye\n" + \
+
+ COMMENT BY SETTING
+"™↔"Contact:on/off\n" + \ 
+"™↔"Add:on/off\n" + \ 
+"™↔"Join:on/off\n" + \ 
+"™↔"Leave:on/off\n" + \ 
+"™↔"Share:on/off\n" + \ 
+"™↔"Com:on/off\n" + \ 
+"™↔"Clock:on/off\n" + \ 
+
+ COMMENT BY PROTECT
+"™↔"Pro:on/off\n" + \
+"™↔"Prolink:on/off\n" + \
+"™↔"Proinvite:on/off\n" + \
+"™↔"Procancel:on/off\n" + \
+
+「 jombang ʙᴏᴛ」
 """
-helo="====I AM SELF PRANKBOTS"
+helo="====I AM SELF 「 jombang ʙᴏᴛ」"
 
 KAC=[acil,pb1,pb2]
 mid = acil.getProfile().mid
@@ -131,9 +132,9 @@ wait = {
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':True,
-    'message':"""❂••••AUTO ADD BY CHANNEL PRANKBOTS••••❂\nhttps://www.youtube.com/channel/UCycBrqSWEHdk-slnhUmGWiQ\n❂•••JANGAN LUPA DI SUBCRABE YA••••❂""",
+    'message':"""❂••••AUTO ADD BY CHANNEL「 jombang ʙᴏᴛ」••••❂",
     "lang":"JP",
-    "comment1":"❂••••AUTO ADD BY CHANNEL PRANKBOTS••••❂\nhttps://www.youtube.com/channel/UCycBrqSWEHdk-slnhUmGWiQ\n❂•••JANGAN LUPA DI SUBCRABE YA••••❂",
+    "comment1":"❂••••AUTO ADD BY CHANNEL 「 jombang ʙᴏᴛ」••••❂",
     "comment":"Thanks For Add Me",
     "commentOn":False,
     "commentBlack":{},
@@ -221,7 +222,7 @@ def bot(op):
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
-                if msg.from_ == "u06856881c176ae1144cc757861d15056":
+                if msg.from_ == "u6b34b703cbc5fc83cd1e5b6832a05352":
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
@@ -352,7 +353,7 @@ def bot(op):
                 pb2.sendMessage(msg)
             elif "Creator" == msg.text:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': 'ufce863f62f40706c01fa4a3c3c4cb096'}
+                msg.contentMetadata = {'mid': 'u6b34b703cbc5fc83cd1e5b6832a05352'}
                 acil.sendMessage(msg)
             elif msg.text in ["Bot1 Gift","B1 gift"]:
                 msg.contentType = 9
@@ -766,34 +767,34 @@ def bot(op):
                         acil.sendText(msg.to,"Off👈")
             elif msg.text.lower() == 'set':
                 md = ""
-                if wait["contact"] == True: md+="􀜁􀇔􏿿 Contact:on 􀜁􀄯􏿿\n"
-                else: md+="􀜁􀇔􏿿 Contact:off􀜁􀄰􏿿\n"
-                if wait["autoJoin"] == True: md+="􀜁􀇔􏿿 Auto Join:on 􀜁􀄯􏿿\n"
-                else: md +="􀜁􀇔􏿿 Auto Join:off􀜁􀄰􏿿\n"
-                if wait["autoCancel"]["on"] == True:md+="􀜁􀇔􏿿 Auto cancel:" + str(wait["autoCancel"]["members"]) + "􀜁􀄯􏿿\n"
-                else: md+= "􀜁􀇔􏿿 Group cancel:off 􀜁􀄰􏿿\n"
-                if wait["leaveRoom"] == True: md+="􀜁􀇔􏿿 Auto leave:on 􀜁􀄯􏿿\n"
-                else: md+="􀜁􀇔􏿿 Auto leave:off 􀜁􀄰􏿿\n"
-                if wait["timeline"] == True: md+="􀜁􀇔􏿿 Share:on 􀜁􀄯􏿿\n"
-                else:md+="􀜁􀇔􏿿 Share:off 􀜁􀄰􏿿\n"
-                if wait["autoAdd"] == True: md+="􀜁􀇔􏿿 Auto add:on 􀜁􀄯􏿿\n"
-                else:md+="􀜁􀇔􏿿 Auto add:off 􀜁��􏿿\n"
-                if wait["commentOn"] == True: md+="􀜁􀇔􏿿 Auto komentar:on 􀜁􀄯􏿿\n"
-                else:md+="􀜁􀇔􏿿 Auto komentar:off 􀜁􀄰􏿿\n"
-                if wait["protect"] == True: md+="􀜁􀇔􏿿 Protect:on 🔓\n"
-                else:md+="􀜁􀇔􏿿 Protect:off 🔒\n"
-                if wait["linkprotect"] == True: md+="􀜁􀇔􏿿Link Protect:on 🔓\n"
-                else:md+="􀜁􀇔􏿿 Link Protect:off🔒\n"
-                if wait["inviteprotect"] == True: md+="􀜁􀇔􏿿Invitation Protect:on🔓\n"
-                else:md+="􀜁􀇔􏿿 Invitation Protect:off🔒\n"
-                if wait["cancelprotect"] == True: md+"􀜁􀇔􏿿 CancelProtect:on 🔓\n"
-                else:md+="􀜁􀇔􏿿 Cancel Protect:off 🔒\n"
+                if wait["contact"] == True: md+="™↔Contact:ON""™✅\n"
+                else: md+="™↔Contact:OFF""™❌\n"
+                if wait["autoJoin"] == True: md+="™↔Join:ON""™✅\n"
+                else: md +="™↔Join:OFF""™❌\n"
+                if wait["autoCancel"]["on"] == True:md+="™↔Cancel:" + str(wait["autoCancel"]["members"]) + "™✅\n"
+                else: md+= "™↔Cancel:OFF""™❌\n"
+                if wait["leaveRoom"] == True: md+="™↔Leave:ON""™✅\n"
+                else: md+="™↔Leave:OFF""™❌\n"
+                if wait["timeline"] == True: md+="™↔Share:ON""™✅\n"
+                else:md+="™↔Share:OFF""™❌\n"
+                if wait["autoAdd"] == True: md+="™↔Add:ON""™✅\n"
+                else:md+="™↔Add:OFF""™❌\n"
+                if wait["commentOn"] == True: md+="™↔Com:ON""™✅\n"
+                else:md+="™↔Com:OFF""™❌\n™↔❨YUDI❩\n™↔◄═PROTECTION═►\n""™jombang\n"
+                if wait["protect"] == True: md+="™↔Pro:ON""™✅\n"
+                else:md+="™↔Pro:OFF""™❌\n"
+                if wait["linkprotect"] == True: md+="™↔ProtectQr:ON""™✅\n"
+                else:md+="™↔ProtectQr:OFF""™❌\n"
+                if wait["inviteprotect"] == True: md+="™↔Proinvite:ON""™✅\n"
+                else:md+="™↔Proinvite:OFF""™❌\n"
+                if wait["cancelprotect"] == True: md+"™↔Procancel:ON""™✅\n"
+		else:md+="™↔Procancel:OFF""™❌\n"
                 acil.sendText(msg.to,md)
                 acil.sendText(msg.to,"❂•••••••••✧••••••••••❂")
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': 'ufce863f62f40706c01fa4a3c3c4cb096'}
+                msg.contentMetadata = {'mid': 'u6b34b703cbc5fc83cd1e5b6832a05352'}
                 acil.sendMessage(msg)
-                acil.sendText(msg.to,"❂•••••{CREATOR PRANKBOTS}•••••❂")
+                acil.sendText(msg.to,"❂•••••「 jombang ʙᴏᴛ」•••••❂")
             elif "Gowner" == msg.text:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': ginfo.creator.mid}
@@ -801,7 +802,7 @@ def bot(op):
                 acil.sendMessage(msg)
             elif cms(msg.text,["Add"]):
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': 'u5818cb4404411c2e2e6e6937d172cca8'}
+                msg.contentMetadata = {'mid': 'u6b34b703cbc5fc83cd1e5b6832a05352'}
                 acil.sendText(msg.to,"❂•••••••••✧••••••••••❂")
                 acil.sendMessage(msg)
                 acil.sendText(msg.to,"❂•••••••••✧••••••••••❂")
@@ -875,7 +876,7 @@ def bot(op):
                     ki5.leaveGroup(i)
                     ki6.leaveGroup(i)
                 if wait["lang"] == "JP":
-                    acil.sendText(msg.to,"PRANKBOT Sudah Keluar Di semua grup")
+                    acil.sendText(msg.to,"「 jombang ʙᴏᴛ」 Sudah Keluar Di semua grup")
                 else:
                     acil.sendText(msg.to,"He declined all invitations")
             elif msg.text in ["Gcancelall"]:
@@ -1464,7 +1465,7 @@ def bot(op):
                                 pb2.sendText(msg,to,"Nuke Succes Bos")
 #-------------------- = NUKE FINISH = ----------------------------- 
 #-------------Fungsi Tagall User Start---------------#
-            elif msg.text in ["Dor","Tagall","Crot","Tag"]:
+            elif msg.text in ["Dor","Tagall","Mak","Tag"]:
                 group = acil.getGroup(msg.to)
                 nama = [contact.mid for contact in group.members]
                 cb = ""
@@ -1519,8 +1520,6 @@ def bot(op):
                 acil.sendText(msg.to, "Processing Request..")
                 elapsed_time = time.time() - start
                 acil.sendText(msg.to, "%sseconds" % (elapsed_time))
-                pb1.sendText(msg.to, "%sseconds" % (elapsed_time))
-                pb2.sendText(msg.to, "%sseconds" % (elapsed_time))
 #-----------------------------------------------
             elif msg.text.lower() == 'prank in':
                         G = acil.getGroup(msg.to)
@@ -1608,7 +1607,7 @@ def bot(op):
                         pb2.updateGroup(G)
 #-----------------------------------------------
 #-----------------------------------------------
-            elif msg.text.lower() == 'prank out':
+            elif msg.text.lower() == 'Moleh':
                 if msg.toType == 2:
                     ginfo = acil.getGroup(msg.to)
                     try:
