@@ -112,8 +112,7 @@ helpMessage"""「 jombang ʙᴏᴛ」
 "™↔"Prolink:on/off
 "™↔"Proinvite:on/off
 "™↔"Procancel:on/off
-「 jombang ʙᴏᴛ」
-"""
+「 jombang ʙᴏᴛ」"""
 helo="====I AM SELF 「 jombang ʙᴏᴛ」"
 
 KAC=[acil,pb1,pb2]
