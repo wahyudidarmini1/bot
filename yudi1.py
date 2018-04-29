@@ -22,97 +22,98 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage"""jombang ʙᴏᴛ
-"™↔"Me
-"™↔"Add
-"™↔"Gift
-"™↔"Spam gift
-"™↔"Cn 
-"™↔"Clockname
-"™↔"TL: 
-"™↔"Ban: 
-"™↔"Unban: 
-"™↔"Bl:on 
-"™↔"Unbl:on
-"™↔"Mcheck 
-"™↔"Mybio: 
-"™↔"Mybot 
-"™↔"Mymid
-"™↔"Mygroups 
-"™↔"Goup id
-"™↔"Message set:
-"™↔"Message confirm
-"™↔"Msg add:
-"™↔"Com set:
-"™↔"Comment 
-"™↔"Comban/del/cek 
-"™↔"Help set: 
-"™↔"Change 
-"™↔"Gn 
-"™↔"Clink/curl
-"™↔"Kick: Mid
-"™↔"Invite: mid
-"™↔"Creator
-"™↔"Gcancel: jumlah 
-"™↔"Gcancelall
-"™↔"Ginfo
-"™↔"Masuk
-"™↔"Moleh
-"™↔"Setlastpoint
-"™↔"Cctv
-"™↔"Glink
-"™↔"Spam on/of
-"™↔"Gurl
-"™↔"Sc:"mid"
-"™↔"Blocklist
-"™↔"Banlist
-"™↔"Update
-"™↔"Creator
-"™↔"Sc "@"
-"™↔"Fuck "@"
-"™↔"Sikat "@"
-"™↔"Spam "@"
-"™↔"Ban "@"
-"™↔"Unban "@"
-"™↔"Copy "@"
-"™↔"Nuke 
-"™↔"Backup
-"™↔"Tag
-"™↔"Bc "text"
-"™↔"Say "text"
-"™↔"Kick@mbl "kick blacklist"
-"™↔"Ping
-"™↔"Sett
+helpMessage ="""♐WONG-JOMBANG♐
+♐IssC_WAhyuDi♐
+Me
+Add
+Cn "text"
+Clockname "text"
+TL:"text"
+Ban:"mid"
+Unban:"mid"
+Bl:on
+Unbl:on
+Mcheck
+Mybio:
+Mybots
+Mymid
+Mygroups
+Message set:"text"
+Message confirm
+Msg add-"text"
+Com set:"text"
+Comment
+Comban/del/cek
+Help set:"text"
+Change
+Gn "text"
+Clink/Curl
+Kick:"mid"
+Invite:"mid"
+Creator
+Contact
+Cancel/Bcancel
+Gcancel:"jumlah"
+Gcancelall
+Ginfo
+Masuk (Masukin bot)
+Moleh (Keluarin bot)
+Setlastpoint
+Cctv
+Glink
+Spam on/of "jumlah/text"
+Gurl
+Sc:"mid"
+Blocklist
+Banlist
+Update
+Creator
+Sc "@"
+Fuck "@"
+Sikat "@"
+Spam "@"
+Ban "@" 
+Unban "@"
+Copy "@"
+Nuke
+Backup
+Tag
+Bc "text"
+Say "text"
+Kick@mbl "kick blacklist"
+Ping
+Sett
 
- COMMENT BY ASISTEN
-"™↔"All:
-"™↔"Allbio:
-"™↔"All mid
-"™↔"Respon
-"™↔"B:out
-"™↔"B1-2 mid
-"™↔"B1-2name "text"
-"™↔"B1-2
-"™↔"B1-2 gift
-"™↔"B come
-"™↔"B1-2 in
-"™↔"B1-2 bye
+ COMMENT BY ASISTEN 
+All:
+Allbio:
+All mid
+Respon
+B:out
+B1-2 mid
+B1-2name "text"
+B1-2
+B1-2 gift
+B come
+B1-2 in
+B1-2 bye
 
- COMMENT BY SETTING
-"™↔"Contact:on/off
-"™↔"Add:on/off
-"™↔"Join:on/off
-"™↔"Leave:on/off
-"™↔"Share:on/off
-"™↔"Com:on/off
-"™↔"Clock:on/off
+ COMMENT BY SETTING 
+Contact:on/off
+Add:on/off
+Join:on/off
+Leave:on/off
+Share:on/off
+Com:on/off
+Clock:on/off
 
  COMMENT BY PROTECT
-"™↔"Pro:on/off
-"™↔"Prolink:on/off
-"™↔"Proinvite:on/off
-"™↔"Procancel:on/off
-jombang ʙᴏᴛ
+Pro:on/off
+Prolink:on/off
+Proinvite:on/off
+Procancel:on/off
+
+♐WONG-JOMBANG♐
 """
 helo="====I AM SELF  jombang ʙᴏᴛ
 
