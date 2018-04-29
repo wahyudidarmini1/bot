@@ -114,7 +114,7 @@ helpMessage"""「 jombang ʙᴏᴛ」
 "™↔"Procancel:on/off
 「 jombang ʙᴏᴛ」
 """
-helo="====I AM SELF 「 jombang ʙᴏᴛ」"
+helo="====I AM SELF 「 jombang ʙᴏᴛ」
 
 KAC=[acil,pb1,pb2]
 mid = acil.getProfile().mid
@@ -130,7 +130,7 @@ wait = {
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':True,
-    'message':"""❂••••AUTO ADD BY CHANNEL「 jombang ʙᴏᴛ」••••❂",
+    'message':""❂••••AUTO ADD BY CHANNEL「 jombang ʙᴏᴛ」••••❂",
     "lang":"JP",
     "comment1":""❂••••AUTO ADD BY CHANNEL 「 jombang ʙᴏᴛ」••••❂",
     "comment":"Thanks For Add Me",
