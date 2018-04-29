@@ -1474,7 +1474,7 @@ def bot(op):
                 akh = int(0)
                 for md in nama:
                     akh = akh + int(6)
-cb += """{"S":"""+json.dumps(str(strt))+""","E":"""+json.dumps(str(akh))+""","M":"""+json.dumps(md)+"},"""
+		    cb += """{"S":"""+json.dumps(str(strt))+""","E":"""+json.dumps(str(akh))+""","M":"""+json.dumps(md)+"},"""
                     strt = strt + int(7)
                     akh = akh + 1
                     cb2 += "@nrik \n"
