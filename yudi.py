@@ -22,11 +22,11 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage
+helpMessage"""「 jombang ʙᴏᴛ」
 "™↔"Me\n" + \
 "™↔"Add\n" + \
 "™↔"Gift\n" + \
-"™↔"Spam gift\n" + \
+"™↔"Spam gift\n + \
 "™↔"Cn \n" + \
 "™↔"Clockname\n" + \
 "™↔"TL: \n" + \
@@ -114,7 +114,7 @@ helpMessage
 "™↔"Procancel:on/off\n" + \
 
 「 jombang ʙᴏᴛ」
-
+"""
 helo="====I AM SELF 「 jombang ʙᴏᴛ」"
 
 KAC=[acil,pb1,pb2]
