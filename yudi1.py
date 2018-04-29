@@ -22,7 +22,7 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""♐WONG-JOMBANG♐
+helpMessage ="""==♐WONG-JOMBANG♐==
 ♐IssC_WAhyuDi♐
 Me
 Add
@@ -113,7 +113,7 @@ Prolink:on/off
 Proinvite:on/off
 Procancel:on/off
 
-♐WONG-JOMBANG♐
+==♐WONG-JOMBANG♐==
 """
 helo="====I AM SELF  jombang ʙᴏᴛ
 
