@@ -18,7 +18,7 @@ pb2.login(token="EsNCZzJILnhpAWZglamb.drkXjI9kC7gz45kx2rUb2W.ULYBO74xVryLmSGAtBo
 pb2.loginResult()
 
 
-print "login success"
+print 'ok
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
