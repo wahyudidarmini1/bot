@@ -112,7 +112,8 @@ helpMessage"""「 jombang ʙᴏᴛ」
 "™↔"Prolink:on/off\n" + \
 "™↔"Proinvite:on/off\n" + \
 "™↔"Procancel:on/off\n" + \
-「 jombang ʙᴏᴛ」"""
+(╣•℘̰̰̈́ґ̰̰̈́∂̰̰̈́η̰̰̈́к̰̰̈́ ̰в̰̰̈́❍̰̰̈́т̰̰̈́ѕ̰̰̈́•╣)
+"""
 
 helo="====I AM SELF 「 jombang ʙᴏᴛ」"
 
