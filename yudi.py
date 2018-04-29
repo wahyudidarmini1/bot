@@ -112,7 +112,9 @@ helpMessage"""「 jombang ʙᴏᴛ」
 "™↔"Prolink:on/off
 "™↔"Proinvite:on/off
 "™↔"Procancel:on/off
+
 「 jombang ʙᴏᴛ」"""
+
 helo="====I AM SELF 「 jombang ʙᴏᴛ」"
 
 KAC=[acil,pb1,pb2]
@@ -129,9 +131,9 @@ wait = {
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':True,
-    'message':"❂••••AUTO ADD BY CHANNEL「 jombang ʙᴏᴛ」••••❂",
+    'message':"""❂••••AUTO ADD BY CHANNEL「 jombang ʙᴏᴛ」••••❂",
     "lang":"JP",
-    "comment1":"❂••••AUTO ADD BY CHANNEL 「 jombang ʙᴏᴛ」••••❂",
+    "comment1":"""❂••••AUTO ADD BY CHANNEL 「 jombang ʙᴏᴛ」••••❂",
     "comment":"Thanks For Add Me",
     "commentOn":False,
     "commentBlack":{},
@@ -764,28 +766,28 @@ def bot(op):
                         acil.sendText(msg.to,"Off👈")
             elif msg.text.lower() == 'set':
                 md = ""
-                if wait["contact"] == True: md+="™↔Contact:ON""™✅\n"
-                else: md+="™↔Contact:OFF""™❌\n"
-                if wait["autoJoin"] == True: md+="™↔Join:ON""™✅\n"
-                else: md +="™↔Join:OFF""™❌\n"
-                if wait["autoCancel"]["on"] == True:md+="™↔Cancel:" + str(wait["autoCancel"]["members"]) + "™✅\n"
-                else: md+= "™↔Cancel:OFF""™❌\n"
-                if wait["leaveRoom"] == True: md+="™↔Leave:ON""™✅\n"
-                else: md+="™↔Leave:OFF""™❌\n"
-                if wait["timeline"] == True: md+="™↔Share:ON""™✅\n"
-                else:md+="™↔Share:OFF""™❌\n"
-                if wait["autoAdd"] == True: md+="™↔Add:ON""™✅\n"
-                else:md+="™↔Add:OFF""™❌\n"
-                if wait["commentOn"] == True: md+="™↔Com:ON""™✅\n"
-                else:md+="™↔Com:OFF""™❌\n™↔❨YUDI❩\n™↔◄═PROTECTION═►\n""™jombang\n"
-                if wait["protect"] == True: md+="™↔Pro:ON""™✅\n"
-                else:md+="™↔Pro:OFF""™❌\n"
-                if wait["linkprotect"] == True: md+="™↔ProtectQr:ON""™✅\n"
-                else:md+="™↔ProtectQr:OFF""™❌\n"
-                if wait["inviteprotect"] == True: md+="™↔Proinvite:ON""™✅\n"
-                else:md+="™↔Proinvite:OFF""™❌\n"
-                if wait["cancelprotect"] == True: md+"™↔Procancel:ON""™✅\n"
-		else:md+="™↔Procancel:OFF""™❌\n"
+                if wait["contact"] == True: md+="􀜁􀇔􏿿 Contact:on 􀜁􀄯􏿿\n"
+                else: md+="􀜁􀇔􏿿 Contact:off􀜁􀄰􏿿\n"
+                if wait["autoJoin"] == True: md+="􀜁􀇔􏿿 Auto Join:on 􀜁􀄯􏿿\n"
+                else: md +="􀜁􀇔􏿿 Auto Join:off􀜁􀄰􏿿\n"
+                if wait["autoCancel"]["on"] == True:md+="􀜁􀇔􏿿 Auto cancel:" + str(wait["autoCancel"]["members"]) + "􀜁􀄯􏿿\n"
+                else: md+= "􀜁􀇔􏿿 Group cancel:off 􀜁􀄰􏿿\n"
+                if wait["leaveRoom"] == True: md+="􀜁􀇔􏿿 Auto leave:on 􀜁􀄯􏿿\n"
+                else: md+="􀜁􀇔􏿿 Auto leave:off 􀜁􀄰􏿿\n"
+                if wait["timeline"] == True: md+="􀜁􀇔􏿿 Share:on 􀜁􀄯􏿿\n"
+                else:md+="􀜁􀇔􏿿 Share:off 􀜁􀄰􏿿\n"
+                if wait["autoAdd"] == True: md+="􀜁􀇔􏿿 Auto add:on 􀜁􀄯􏿿\n"
+                else:md+="􀜁􀇔􏿿 Auto add:off 􀜁��􏿿\n"
+                if wait["commentOn"] == True: md+="􀜁􀇔􏿿 Auto komentar:on 􀜁􀄯􏿿\n"
+                else:md+="􀜁􀇔􏿿 Auto komentar:off 􀜁􀄰􏿿\n"
+                if wait["protect"] == True: md+="􀜁􀇔􏿿 Protect:on 🔓\n"
+                else:md+="􀜁􀇔􏿿 Protect:off 🔒\n"
+                if wait["linkprotect"] == True: md+="􀜁􀇔􏿿Link Protect:on 🔓\n"
+                else:md+="􀜁􀇔􏿿 Link Protect:off🔒\n"
+                if wait["inviteprotect"] == True: md+="􀜁􀇔􏿿Invitation Protect:on🔓\n"
+                else:md+="􀜁􀇔􏿿 Invitation Protect:off🔒\n"
+                if wait["cancelprotect"] == True: md+"􀜁􀇔􏿿 CancelProtect:on 🔓\n"
+		else:md+="􀜁􀇔􏿿 Cancel Protect:off 🔒\n"
                 acil.sendText(msg.to,md)
                 acil.sendText(msg.to,"❂•••••••••✧••••••••••❂")
                 msg.contentType = 13
