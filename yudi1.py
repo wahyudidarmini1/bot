@@ -112,8 +112,8 @@ helpMessage""""jombang ʙᴏᴛ
 "™↔"Prolink:on/off
 "™↔"Proinvite:on/off
 "™↔"Procancel:on/off
-jombang ʙᴏᴛ
-"""
+jombang ʙᴏᴛ"""
+
 helo="====I AM SELF  jombang ʙᴏᴛ
 
 KAC=[acil,pb1,pb2]
@@ -130,9 +130,9 @@ wait = {
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':True,
-    'message':""❂••••AUTO ADD BY CHANNEL「 jombang ʙᴏᴛ」••••❂",
+    'message':"❂••••AUTO ADD BY CHANNEL「 jombang ʙᴏᴛ」••••❂",
     "lang":"JP",
-    "comment1":""❂••••AUTO ADD BY CHANNEL 「 jombang ʙᴏᴛ」••••❂",
+    "comment1":"❂••••AUTO ADD BY CHANNEL 「 jombang ʙᴏᴛ」••••❂",
     "comment":"Thanks For Add Me",
     "commentOn":False,
     "commentBlack":{},
