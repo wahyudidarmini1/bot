@@ -22,7 +22,7 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage.「jombang ʙᴏᴛ」
+helpMessage
 "™↔"Me\n" + \
 "™↔"Add\n" + \
 "™↔"Gift\n" + \
