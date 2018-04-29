@@ -6,15 +6,15 @@ from datetime import datetime
 import time,random,sys,re,os,json,subprocess,codecs,threading,glob
 
 acil = PRANKBOTS.LINE() 
-acil.login(token="EsChWMepSb9lKr6nS9i4./0DOo/10A+PUJG8iHA76Pa.9WT1pKEmje7MEZT/bcAcwS88hnqZnZ9b7LWIwv16eQE=")
+acil.login(token="Es5zGnez6hEQzt6wdFQ2.AZs3a8Vf+ipnhLTOmQbtuG.+HmAXy7D4P9x25rdSQau6ZL468ni3Wa3234TCISJ62A=")
 acil.loginResult()
 
 pb1 = PRANKBOTS.LINE() 
-pb1.login(token="EskEWkghcvWWrPV0kcg8.BQIP++PfVBkYt2USSm1tMa.2DtxflWZy0GTpvxS82l7LgoduPZ2i4UheyH65sbtYIc=")
+pb1.login(token="Esz7X6PLOFaoxbNW1Mce.4uWnRTJU51yT+/CjXTyHBG.79TGK9+Vw7nNlR01aB46+Cz88L8Qjvft+LTJ4W2/dKg=")
 pb1.loginResult()
 
 pb2 = PRANKBOTS.LINE() 
-pb2.login(token="EslXTbjsMkDvx5KKhfg4.bOiJimUzjLhiapSWdVjeva.+W+ASC1OphwuhdLcp6OK0Ljg2jZXMF3DV/6HxRDPI9c=")
+pb2.login(token="EsNCZzJILnhpAWZglamb.drkXjI9kC7gz45kx2rUb2W.ULYBO74xVryLmSGAtBok2+4vqyMJ9Lfjkqz/0P7yTXQ=")
 pb2.loginResult()
 
 
@@ -123,7 +123,7 @@ mid = acil.getProfile().mid
 pb1mid = pb1.getProfile().mid
 pb2mid = pb2.getProfile().mid
 Bots=[mid,pb1mid,pb2mid]
-admsa = "ufb47683bed746bfa6e8e0f0885aefaa4"
+admsa = "u6b34b703cbc5fc83cd1e5b6832a05352"
 
 wait = {
     'contact':False,
