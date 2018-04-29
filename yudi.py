@@ -23,95 +23,95 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpMessage"""「 jombang ʙᴏᴛ」
-"™↔"Me\n" + \
-"™↔"Add\n" + \
-"™↔"Gift\n" + \
-"™↔"Spam gift\n + \
-"™↔"Cn \n" + \
-"™↔"Clockname\n" + \
-"™↔"TL: \n" + \
-"™↔"Ban: \n" + \
-"™↔"Unban: \n" + \
-"™↔"Bl:on \n" + \
-"™↔"Unbl:on \n" + \
-"™↔"Mcheck \n" + \
-"™↔"Mybio: \n" + \
-"™↔"Mybot \n" + \
-"™↔"Mymid \n" + \
-"™↔"Mygroups \n" + \
-"™↔"Goup id \n" + \
-"™↔"Message set: \n" + \
-"™↔"Message confirm \n" + \
-"™↔"Msg add: \n" + \
-"™↔"Com set:\n" + \
-"™↔"Comment \n" + \
-"™↔"Comban/del/cek \n" + \
-"™↔"Help set: \n" + \
-"™↔"Change \n" + \
-"™↔"Gn \n" + \
-"™↔"Clink/curl \n" + \
-"™↔"Kick: Mid\n" + \
-"™↔"Invite: mid\n" + \
-"™↔"Creator \n" + \
-"™↔"Gcancel: jumlah \n" + \
-"™↔"Gcancelall \n" + \
-"™↔"Ginfo\n" + \
-"™↔"Masuk\n" + \
-"™↔"Moleh\n" + \
-"™↔"Setlastpoint\n" + \
-"™↔"Cctv\n" + \
-"™↔"Glink\n" + \
-"™↔"Spam on/of\n" + \
-"™↔"Gurl\n" + \
-"™↔"Sc:"mid"\n" + \
-"™↔"Blocklist\n" + \
-"™↔"Banlist\n" + \
-"™↔"Update\n" + \
-"™↔"Creator\n" + \
-"™↔"Sc "@"\n" + \
-"™↔"Fuck "@"\n" + \
-"™↔"Sikat "@"\n" + \
-"™↔"Spam "@"\n" + \
-"™↔"Ban "@" \n" + \
-"™↔"Unban "@" \n" + \
-"™↔"Copy "@" \n" + \
-"™↔"Nuke \n" + \
-"™↔"Backup\n" + \
-"™↔"Tag\n" + \
-"™↔"Bc "text"\n" + \
-"™↔"Say "text"\n" + \
-"™↔"Kick@mbl "kick blacklist"\n" + \
-"™↔"Ping\n" + \
-"™↔"Sett\n" + \
+"™↔"Me
+"™↔"Add
+"™↔"Gift
+"™↔"Spam gift
+"™↔"Cn 
+"™↔"Clockname
+"™↔"TL: 
+"™↔"Ban: 
+"™↔"Unban: 
+"™↔"Bl:on 
+"™↔"Unbl:on
+"™↔"Mcheck 
+"™↔"Mybio: 
+"™↔"Mybot 
+"™↔"Mymid
+"™↔"Mygroups 
+"™↔"Goup id
+"™↔"Message set:
+"™↔"Message confirm
+"™↔"Msg add:
+"™↔"Com set:
+"™↔"Comment 
+"™↔"Comban/del/cek 
+"™↔"Help set: 
+"™↔"Change 
+"™↔"Gn 
+"™↔"Clink/curl
+"™↔"Kick: Mid
+"™↔"Invite: mid
+"™↔"Creator
+"™↔"Gcancel: jumlah 
+"™↔"Gcancelall
+"™↔"Ginfo
+"™↔"Masuk
+"™↔"Moleh
+"™↔"Setlastpoint
+"™↔"Cctv
+"™↔"Glink
+"™↔"Spam on/of
+"™↔"Gurl
+"™↔"Sc:"mid"
+"™↔"Blocklist
+"™↔"Banlist
+"™↔"Update
+"™↔"Creator
+"™↔"Sc "@"
+"™↔"Fuck "@"
+"™↔"Sikat "@"
+"™↔"Spam "@"
+"™↔"Ban "@"
+"™↔"Unban "@"
+"™↔"Copy "@"
+"™↔"Nuke 
+"™↔"Backup
+"™↔"Tag
+"™↔"Bc "text"
+"™↔"Say "text"
+"™↔"Kick@mbl "kick blacklist"
+"™↔"Ping
+"™↔"Sett
 
  COMMENT BY ASISTEN
-"™↔"All:\n" + \ 
-"™↔"Allbio:\n" + \ 
-"™↔"All mid\n" + \ 
-"™↔"Respon\n" + \ 
-"™↔"B:out\n" + \ 
-"™↔"B1-2 mid\n" + \ 
-"™↔"B1-2name "text"\n" + \ 
-"™↔"B1-2\n" + \ 
-"™↔"B1-2 gift\n" + \ 
-"™↔"B come\n" + \
-"™↔"B1-2 in\n" + \
-"™↔"B1-2 bye\n" + \
+"™↔"All:
+"™↔"Allbio:
+"™↔"All mid
+"™↔"Respon
+"™↔"B:out
+"™↔"B1-2 mid
+"™↔"B1-2name "text"
+"™↔"B1-2
+"™↔"B1-2 gift
+"™↔"B come
+"™↔"B1-2 in
+"™↔"B1-2 bye
 
  COMMENT BY SETTING
-"™↔"Contact:on/off\n" + \ 
-"™↔"Add:on/off\n" + \ 
-"™↔"Join:on/off\n" + \ 
-"™↔"Leave:on/off\n" + \ 
-"™↔"Share:on/off\n" + \ 
-"™↔"Com:on/off\n" + \ 
-"™↔"Clock:on/off\n" + \ 
+"™↔"Contact:on/off
+"™↔"Add:on/off
+"™↔"Join:on/off
+"™↔"Leave:on/off
+"™↔"Share:on/off
+"™↔"Com:on/off
+"™↔"Clock:on/off
 
  COMMENT BY PROTECT
-"™↔"Pro:on/off\n" + \
-"™↔"Prolink:on/off\n" + \
-"™↔"Proinvite:on/off\n" + \
-"™↔"Procancel:on/off\n" + \
+"™↔"Pro:on/off
+"™↔"Prolink:on/off
+"™↔"Proinvite:on/off
+"™↔"Procancel:on/off
 「 jombang ʙᴏᴛ」
 """
 helo="====I AM SELF 「 jombang ʙᴏᴛ」"
